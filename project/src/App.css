@@ -1,15 +1,29 @@
 .container{
 
-
     .header{
+        display: flex;
+        justify-content:space-between; 
+        background-color: var(--primary-color);
+        padding: 26px 80px;
+         
 
-        .nav{
-            display: flex;
-            justify-content: space-between;
-            background-color: var(--primary-color);
-            text-align: center;
-            padding: 26px 80px;
-            
+        .nav-left a{       
+            font-size: 14px;
+            font-weight: 500 !important;
+            line-height: 16.94px;
+            color:var(--text-color);
+                              
         }
+    }
+
+    .button {
+        padding: 12px 20px;
+        background-color: var(--secondary-color);
+        text-transform:uppercase;
+        line-height: 14px;
+        font-weight: 700 !important;
+        color: var(--text-color);
+        border: none;
+        border-radius: 5%;
     }
 }
